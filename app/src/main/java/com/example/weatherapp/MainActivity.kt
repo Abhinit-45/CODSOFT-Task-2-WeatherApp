@@ -88,6 +88,7 @@ class MainActivity : AppCompatActivity() {
                     binding.day.text = dayName(System.currentTimeMillis())
                     binding.date.text = date()
                     binding.locationName.text = " $cityname"
+                    //hi
 
                     changeImgAccordingWeatherCondition(weathercondition)
                     //Log.d("Tag", "onResponse: $temperature")
